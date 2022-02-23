@@ -1,0 +1,2 @@
+[![CircleCI](https://circleci.com/github/Rusty-Alucard/typescript-tutorial.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![Coverage Status](https://coveralls.io/repos/github/Rusty-Alucard/typescript-tutorial/badge.svg?branch=main)](https://coveralls.io/github/Rusty-Alucard/typescript-tutorial?branch=main)
