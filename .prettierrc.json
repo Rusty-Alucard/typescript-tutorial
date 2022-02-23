@@ -1,0 +1,7 @@
+{
+    "trailingComma": "es2021",
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "endOfLine": "lf"
+}
