@@ -57,5 +57,11 @@
     },
     "rules": {}
   },
+  "prettier":{
+    "trailingComma": "all",
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
   "private": true
 }
