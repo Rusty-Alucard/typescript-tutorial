@@ -5,9 +5,15 @@ jobs:
       - image: circleci/node:16
     steps:
       - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "yarn.locl" }}
       - run:
           name: install dependencies
           command: yarn install
+      - save_cache:
+          key: dependency-cache-{{ checksum "yarn.locl" }}
+          paths:
+            - ./node_modules
   test:
     docker:
       - image: circleci/node:16
